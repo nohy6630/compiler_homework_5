@@ -1,5 +1,5 @@
 #include "type.h"
-#include "sem_print.h"
+#include "print_sem.h"
 
 extern char * node_name[];
 extern char *type_kind_name[];

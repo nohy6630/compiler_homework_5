@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "print.h"
-#include "sem_print.h"
+#include "print_sem.h"
 
 extern int syntax_err;
 extern int semantic_err;
