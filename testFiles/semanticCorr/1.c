@@ -1,9 +1,9 @@
 int a;
 char b = 'c';
-float int 123c = 123.455;
+float c;
 static int d = (++a + b--);
 int * e = d;
-char f[100] = "Hello World!\n";
+char f[100];
 typedef struct Student{
     int num;
     char * name;
@@ -13,4 +13,9 @@ union g{
     float test2;
 };
 enum h{kim, park, lee, kang};
-char *i[]();
+
+int main(){
+    c = 1 + 0.45670 ;
+    // f = "Hello World!";
+    return 0;
+}

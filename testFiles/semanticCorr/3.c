@@ -1,4 +1,4 @@
-void main()
+int main()
 {
     int a = 1;
     int b = 3;
@@ -36,8 +36,8 @@ void main()
         int c = a + b;
         a++;
     } while (b > 10);
-    
-    for(;b > 1){
+
+    for(;b > 1; b--){
         a++;
     }
 }
