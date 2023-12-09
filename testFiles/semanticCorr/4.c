@@ -1,20 +1,16 @@
-int kim=10+20;
-float * park[3];
-typedef struct s1 {char *name; int value;} STR;
-STR chang[5];
-enum e1 {red=10, green, blue} song;
-int fun(int x, int y){
-	int z;
-	z=0;
-	while (y>0) {
-		if(y%2)
-			z=z+x;
-		x=x*2;
-		y=y/2;
-	}
-	return z;
+int fac(int n)
+{
+    if (n > 1)
+        return n * fac(n - 1);
+    else if (n == 0)
+        return 1;
+    else
+        return n;
 }
-void main(){
-	int result;
-	result=fun(kim,7);
+int main()
+{
+    int N;
+    scanf("%d", &N);
+    printf("%d", fac(N));
+    return 0;
 }

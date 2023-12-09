@@ -1,43 +1,20 @@
-int main()
-{
-    int a = 1;
-    int b = 3;
-    while(a > 10){
-        if(a >= 7){
-            break;
-        } else if (a == 2){
-            a = a + 2;
-        } else {
-            a++;
-        }
-    }
-
-    switch(a){
-        case 1 : 
-            b--;
-            break;
-        case 10 : 
-            b = 10;
-            break;
-        default :
-            b = 1;
-            break;
-    }
-
-    if (b <= 1 && a < b){
-        a++;
-    } else if (a > b || b == 10){
-        b--;
-    } else {
-        ;
-    }
-
-    do{
-        int c = a + b;
-        a++;
-    } while (b > 10);
-
-    for(;b > 1; b--){
-        a++;
-    }
+int kim=10+20;
+float * park[3];
+typedef struct s1 {char *name; int value;} STR;
+STR chang[5];
+enum e1 {red=10, green, blue} song;
+int fun(int x, int y){
+	int z;
+	z=0;
+	while (y>0) {
+		if(y%2)
+			z=z+x;
+		x=x*2;
+		y=y/2;
+	}
+	return z;
+}
+void main(){
+	int result;
+	result=fun(kim,7);
 }
